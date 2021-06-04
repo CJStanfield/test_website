@@ -3,7 +3,7 @@ const express = require('express');
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('<div><h1>Image removed. Is it working?</h1></div>');
+    res.send('<div><h1>Double Proxy Test?</h1></div>');
 });
 
 app.listen(5000, () =>{
